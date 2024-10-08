@@ -1,0 +1,16 @@
+[
+  {
+    "id": "9788194790891",
+    "name": "Product 1",
+    "brand": "Brand A",
+    "description": "Description of Product 1",
+    "image": "./assets/product1.png"
+  },
+  {
+    "id": "67890",
+    "name": "Product 2",
+    "brand": "Brand B",
+    "description": "Description of Product 2",
+    "image": "/assets/product2.png"
+  }
+]
