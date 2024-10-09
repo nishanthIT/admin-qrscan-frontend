@@ -1,7 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainComponent from "./components/MainComponent";
 import ProductDetails from "./components/ProductDetails";
-
 function App() {
   return (
     <Router>

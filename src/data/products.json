@@ -1,16 +1,18 @@
 [
   {
     "id": "9788194790891",
-    "name": "Product 1",
-    "brand": "Brand A",
-    "description": "Description of Product 1",
-    "image": "./assets/product1.png"
+    "name": "Wireless Headset",
+    "brand": "BrandName",
+    "description": "High-quality wireless headset with noise cancellation and long battery life.",
+    "quantity": 5,
+    "image": "/img/product1.png"
   },
   {
-    "id": "67890",
-    "name": "Product 2",
-    "brand": "Brand B",
-    "description": "Description of Product 2",
-    "image": "/assets/product2.png"
+    "id": "7390891",
+    "name": "Gaming Mouse",
+    "brand": "AnotherBrand",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI sensitivity.",
+    "quantity": 32343,
+    "image": "/img/product2.png"
   }
 ]
