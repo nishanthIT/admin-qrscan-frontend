@@ -19,7 +19,8 @@ function ShopDetails({ onFinish }) {
     const newShop = shops[shops.length - 1];
     if (newShop.name && newShop.address && newShop.phone) {
       setAddedShops([...addedShops, newShop]);
-      setShops([{ name: "", address: "", phone: "", price: "" }]); // Reset the input fields
+      // Don't reset the input fields, just keep adding the same fields for more data entry
+      setShops([{ name: "", address: "", phone: "", price: "" }]); // This will allow the same fields to show up again
     } else {
       alert("Please fill all fields before adding a shop.");
     }
@@ -27,7 +28,8 @@ function ShopDetails({ onFinish }) {
 
   // Finish adding the shops and trigger the onFinish function
   const finishAddingShops = () => {
-    if (onFinish) onFinish(); // Callback to parent component when finished
+    if (onFinish) onFinish(addedShops); // Pass added shops to the parent component (ProductDetails)
+
     alert("All shops added successfully!");
   };
 
@@ -51,13 +53,13 @@ function ShopDetails({ onFinish }) {
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
 
-            {/* Shop Price */}
+            {/* Product Price */}
             <input
               type="text"
-              name="price" // Ensure this matches the state field name
+              name="price"
               value={shop.price}
               onChange={(e) => handleShopChange(index, e)}
-              placeholder="Shop Price"
+              placeholder="Product Price"
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
 
@@ -120,7 +122,9 @@ function ShopDetails({ onFinish }) {
 
               {/* Shop Address and Phone */}
               <div className="flex justify-between mb-2">
-                <span className="text-gray-700 font-semibold">Shop Price:</span>
+                <span className="text-gray-700 font-semibold">
+                  Product Price:
+                </span>
                 <span className="text-gray-600">{shop.price}</span>
               </div>
 

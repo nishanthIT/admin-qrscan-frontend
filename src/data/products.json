@@ -4,15 +4,14 @@
     "name": "Wireless Headset",
     "brand": "BrandName",
     "description": "High-quality wireless headset with noise cancellation and long battery life.",
-    "quantity": 5,
     "image": "/img/product1.png"
   },
+
   {
     "id": "7390891",
     "name": "Gaming Mouse",
     "brand": "AnotherBrand",
     "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI sensitivity.",
-    "quantity": 32343,
     "image": "/img/product2.png"
   }
 ]
