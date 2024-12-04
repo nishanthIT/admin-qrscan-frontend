@@ -1,6 +1,6 @@
 [
   {
-    "id": "9788194790891",
+    "id": "357466173079",
     "name": "Wireless Headset",
     "brand": "BrandName",
     "description": "High-quality wireless headset with noise cancellation and long battery life.",
@@ -13,5 +13,30 @@
     "brand": "AnotherBrand",
     "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI sensitivity.",
     "image": "/img/product2.png"
+  },
+  {
+    "code": "3574661730790",
+    "codeType": "EAN",
+    "product": {
+      "name": "Johnsons Baby Lotion 300ml",
+      "description": "No description found.",
+      "region": "Outside of North America",
+      "imageUrl": "https://go-upc.s3.amazonaws.com/images/117124275.jpeg",
+      "brand": "Johnson & Johnson",
+      "specs": [
+        
+      ],
+      "category": "Lotion & Moisturizer",
+      "categoryPath": [
+        "Health & Beauty",
+        "Personal Care",
+        "Cosmetics",
+        "Skin Care",
+        "Lotion & Moisturizer"
+      ],
+      "upc": null,
+      "ean": 3574661730790
+    },
+    "inferred": false
   }
 ]

@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Sat Oct 12 11:12:52 2024 as: nmap -sC -sV -oN initial_scan.txt 35.208.110.64
+Nmap scan report for 64.110.208.35.bc.googleusercontent.com (35.208.110.64)
+Host is up (0.0020s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 12 11:13:13 2024 -- 1 IP address (1 host up) scanned in 21.23 seconds
